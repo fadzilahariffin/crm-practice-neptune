@@ -119,7 +119,13 @@
 	"department": [],
 	"script_scheduler": [],
 	"wf_definition": [],
-	"connector": [],
+	"connector": [
+		{
+			"id": "85d75cf3-e785-447e-a050-ae910e2da62d",
+			"name": "practice_crm_acc_create",
+			"description": null
+		}
+	],
 	"events": [],
 	"code_snippets": [],
 	"wf_determination": [],
