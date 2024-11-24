@@ -1,0 +1,173 @@
+{
+	"id": "a5ad324e-9294-41ad-b837-f29b7cfda1fc",
+	"createdAt": "2024-11-15T01:19:17.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Attachment",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": true,
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields"
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"labelSpanM": ""
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "country",
+				"label": "Country",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "flagurl",
+				"label": "Flag URL",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "country",
+				"text": "Country",
+				"fieldPos": 1,
+				"columnLabel": "Details",
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "name",
+				"text": "Name",
+				"fieldPos": 2,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "flagurl",
+				"text": "Flag URL",
+				"fieldPos": 3,
+				"required": false
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Updated At",
+				"fieldPos": 4,
+				"columnLabel": "Dates"
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "Updated By",
+				"fieldPos": 5
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "653c6154-c859-4ec3-872c-3c43c6c8df46",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "practice_country_create",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "392fb9b8-791a-4e5c-9575-caa8adb2b395",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.11.24.1453",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

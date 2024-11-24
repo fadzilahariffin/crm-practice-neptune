@@ -1,0 +1,271 @@
+{
+	"id": "be6380bc-abdd-4382-82ac-a50ed0899c2f",
+	"createdAt": "2024-11-11T14:31:00.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Attachment",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": true,
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields",
+				"avatarIcon": "sap-icon://account",
+				"title": "Account",
+				"subTitle": ""
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"formLayout": "",
+				"labelSpanL": "12",
+				"labelSpanM": "12"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "city",
+				"label": "City",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "country",
+				"label": "Country",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "industry",
+				"label": "Industry ",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ispartner",
+				"label": "Is Partner",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "street",
+				"label": "Street",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "type",
+				"label": "Type",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "zip",
+				"label": "ZIP",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "accountid",
+				"text": "Account ID",
+				"fieldPos": 1,
+				"columnLabel": "Details",
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "name",
+				"text": "Name",
+				"fieldPos": 2,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "country",
+				"text": "Country",
+				"fieldPos": 3,
+				"type": "SingleSelectLookup",
+				"required": true,
+				"lookupTable": "crmcountry",
+				"lookupFieldKey": "country",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "street",
+				"text": "Street",
+				"fieldPos": 4,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "zip",
+				"text": "ZIP",
+				"fieldPos": 5,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "city",
+				"text": "City",
+				"fieldPos": 6,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "type",
+				"text": "Type",
+				"fieldPos": 7,
+				"type": "SingleSelectLookup",
+				"lookupTable": "crmaccounttype",
+				"lookupFieldKey": "type",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "industry",
+				"text": "Industry ",
+				"fieldPos": 8,
+				"type": "SingleSelectLookup",
+				"lookupTable": "crmindustry",
+				"lookupFieldKey": "industry",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Updated At",
+				"fieldPos": 9
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "Updated By",
+				"fieldPos": 10
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "acf6fad8-0a07-4415-8c0c-818632505c18",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "practice_crm_acc_create",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "85d75cf3-e785-447e-a050-ae910e2da62d",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.11.24.1452",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

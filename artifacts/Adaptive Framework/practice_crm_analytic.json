@@ -1,0 +1,149 @@
+{
+	"id": "228be2ab-234d-4a2f-a404-210d5d0e480a",
+	"createdAt": "2024-11-13T09:52:36.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": 250,
+				"chartType": "areaspline",
+				"enableSorting": false,
+				"enableMonochrome": true,
+				"pieInnerSize": 0,
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": "10",
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"colorMonochrome": "#2ea2bf"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "description",
+				"label": "Description",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "value",
+				"label": "Value",
+				"type": "decimal",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "name",
+				"text": "Name",
+				"fieldPos": 1,
+				"type": "category"
+			},
+			{
+				"visible": true,
+				"name": "value",
+				"text": "Value",
+				"enableFilter": false,
+				"fieldPos": 2,
+				"type": "value"
+			}
+		],
+		"defaultVariant": {
+			"id": "407418af-35b9-4a04-9b5a-b8cc795e68c9",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "practice_crm_analytic",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "4d38194e-b58e-4880-9d3f-84afc13fc4d8",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.11.24.1454",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

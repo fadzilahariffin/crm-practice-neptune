@@ -1,0 +1,127 @@
+{
+	"id": "97409bb8-beff-49c7-8dc8-88a3bf986574",
+	"createdAt": "2024-11-24T06:38:04.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/fadzilahariffin/crm-practice-neptune.git"
+	},
+	"name": "CRM_Practice",
+	"description": "practice",
+	"ver": "24.11.24.1527",
+	"enableCICD": true,
+	"apps": [],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "be6380bc-abdd-4382-82ac-a50ed0899c2f",
+			"name": "practice_crm_acc_create",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "a5ad324e-9294-41ad-b837-f29b7cfda1fc",
+			"name": "practice_country_create",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "8adda560-4bea-4028-95d5-c8ff2d05ccda",
+			"name": "practice_country_detail",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "75ec669c-2638-4530-9626-8e8b6d033047",
+			"name": "practice_country_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "46fd661f-2208-4b7c-9a33-5506d7e3fde9",
+			"name": "practice_crm_acc_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "28ac5f56-1cd6-4bb2-9dca-30ef4b6c45a5",
+			"name": "practice_crm_acc_detail",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "228be2ab-234d-4a2f-a404-210d5d0e480a",
+			"name": "practice_crm_analytic",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "f8a98f82-ef0c-4197-a343-efbdf4fe09bd",
+			"description": null,
+			"name": "Country"
+		},
+		{
+			"id": "6f166076-5423-4e01-830d-da3722213d7e",
+			"description": null,
+			"name": "PowerBI_report"
+		},
+		{
+			"id": "5387562a-1acb-44bc-bf93-a3ba37af1e53",
+			"description": null,
+			"name": "Contact"
+		},
+		{
+			"id": "17f58525-c98e-4a29-8261-fe54d2cd10f4",
+			"description": null,
+			"name": "Analytic"
+		}
+	],
+	"category": [
+		{
+			"id": "e3ff1f33-a3f2-4b27-a08c-9c484f95811d",
+			"description": null,
+			"name": "master data"
+		},
+		{
+			"id": "d0382654-45e9-47f7-be18-b317f40bb45e",
+			"description": null,
+			"name": "my analytics"
+		},
+		{
+			"id": "bfb0c8b1-10cc-4ab2-8ea8-d867525aeed8",
+			"description": null,
+			"name": "Fad Main CRM"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "e6f41ec5-1889-431b-9a51-ff20dfdeda44",
+			"name": "Practice_CRM_Launchpad",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
