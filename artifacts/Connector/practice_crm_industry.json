@@ -1,0 +1,17 @@
+{
+	"id": "6ea94ad8-7c04-4444-a3ab-b46377648303",
+	"createdAt": "2024-11-15T01:10:33.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "aa65c1e2-5c3f-4ddd-801f-95267da804a4",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "practice_crm_industry",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "24.11.24.2133",
+	"disabled": false,
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574"
+}

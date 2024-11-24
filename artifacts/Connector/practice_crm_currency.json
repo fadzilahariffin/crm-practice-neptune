@@ -1,0 +1,17 @@
+{
+	"id": "08655ec6-ae0c-43d2-9189-a694644a38c6",
+	"createdAt": "2024-11-15T01:11:18.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "632cafbf-7700-4490-871d-3af809779252",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "practice_crm_currency",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "24.11.24.2133",
+	"disabled": false,
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574"
+}

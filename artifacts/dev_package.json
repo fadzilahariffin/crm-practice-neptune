@@ -121,8 +121,43 @@
 	"wf_definition": [],
 	"connector": [
 		{
+			"id": "fff2ff6e-3e8e-41a5-9055-3c415d405e3b",
+			"name": "practice_crm_opportunity_status",
+			"description": null
+		},
+		{
+			"id": "fc155c10-a120-40db-8425-b1dc495df0d6",
+			"name": "practice_acc_type",
+			"description": null
+		},
+		{
 			"id": "85d75cf3-e785-447e-a050-ae910e2da62d",
 			"name": "practice_crm_acc_create",
+			"description": null
+		},
+		{
+			"id": "6ea94ad8-7c04-4444-a3ab-b46377648303",
+			"name": "practice_crm_industry",
+			"description": null
+		},
+		{
+			"id": "4d38194e-b58e-4880-9d3f-84afc13fc4d8",
+			"name": "practice_crm_opportunity",
+			"description": null
+		},
+		{
+			"id": "392fb9b8-791a-4e5c-9575-caa8adb2b395",
+			"name": "practice_crm_country",
+			"description": null
+		},
+		{
+			"id": "24ae52ce-976e-4b55-9697-61a9e66abf3f",
+			"name": "practice_crm_acc_list",
+			"description": null
+		},
+		{
+			"id": "08655ec6-ae0c-43d2-9189-a694644a38c6",
+			"name": "practice_crm_currency",
 			"description": null
 		}
 	],

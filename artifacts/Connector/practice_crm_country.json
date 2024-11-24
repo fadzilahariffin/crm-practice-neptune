@@ -1,0 +1,17 @@
+{
+	"id": "392fb9b8-791a-4e5c-9575-caa8adb2b395",
+	"createdAt": "2024-11-15T01:09:51.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "94c614c4-8760-eb11-a607-0003ff1e4706",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "practice_crm_country",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "24.11.24.2133",
+	"disabled": false,
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574"
+}

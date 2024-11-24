@@ -1,0 +1,17 @@
+{
+	"id": "fc155c10-a120-40db-8425-b1dc495df0d6",
+	"createdAt": "2024-11-15T01:12:34.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "d9cb042f-65fb-4df4-aaa7-37c17e687375",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "practice_acc_type",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "24.11.24.2133",
+	"disabled": false,
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574"
+}

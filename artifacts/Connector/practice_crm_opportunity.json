@@ -1,0 +1,18 @@
+{
+	"id": "4d38194e-b58e-4880-9d3f-84afc13fc4d8",
+	"createdAt": "2024-11-13T09:55:27.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
+		"previewable": true,
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "practice_crm_opportunity",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "24.11.24.2133",
+	"disabled": false,
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574"
+}

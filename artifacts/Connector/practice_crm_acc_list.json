@@ -1,0 +1,20 @@
+{
+	"id": "24ae52ce-976e-4b55-9697-61a9e66abf3f",
+	"createdAt": "2024-11-11T13:59:46.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "1e37c246-1240-420f-bb42-60f8a477c905",
+		"previewable": true,
+		"hasDocumentation": false
+	},
+	"documentation": {
+		"content": ""
+	},
+	"name": "practice_crm_acc_list",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "24.11.24.2133",
+	"disabled": false,
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574"
+}

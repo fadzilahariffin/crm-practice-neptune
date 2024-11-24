@@ -1,0 +1,17 @@
+{
+	"id": "fff2ff6e-3e8e-41a5-9055-3c415d405e3b",
+	"createdAt": "2024-11-15T01:12:10.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "712efaab-6adc-40e9-9b7c-f4036a68f1d8",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "practice_crm_opportunity_status",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "24.11.24.2133",
+	"disabled": false,
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574"
+}
