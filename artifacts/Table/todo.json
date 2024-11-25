@@ -1,0 +1,31 @@
+{
+	"id": "e8aa7499-f826-41d1-a9f4-a26fb64bc35e",
+	"createdAt": "2024-11-25T04:30:18.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "d6806299-cc97-4b39-be4b-1d1d9f28f792",
+			"fieldName": "title",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "1951ccd5-384e-4e34-ee4e-27433c8dcc1e",
+			"fieldName": "description",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "todo",
+	"description": null,
+	"ver": "24.11.25.1232",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -3,17 +3,42 @@
 	"createdAt": "2024-11-24T06:38:04.000Z",
 	"createdBy": "admin",
 	"git": {
-		"remote": "https://github.com/fadzilahariffin/crm-practice-neptune.git"
+		"remote": "https://github.com/fadzilahariffin/crm-practice-neptune.git",
+		"branch": "main"
 	},
 	"name": "CRM_Practice",
 	"description": "practice",
-	"ver": "24.11.24.1527",
+	"ver": "24.11.25.1412",
 	"enableCICD": true,
-	"apps": [],
-	"api": [],
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
+	"apps": [
+		{
+			"id": "0ca65658-b184-4fc1-8da6-a459604bc5bc",
+			"application": "todo",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "5a237a58-6847-41c8-aa3c-b2f6c8ed0f78",
+			"name": "todo",
+			"description": null,
+			"apiGroup": null
+		}
+	],
 	"odataSource": [],
 	"odataMock": [],
-	"dictionary": [],
+	"dictionary": [
+		{
+			"id": "e8aa7499-f826-41d1-a9f4-a26fb64bc35e",
+			"name": "todo",
+			"description": null
+		}
+	],
 	"jsclass": [],
 	"jsscript_group": [],
 	"theme": [],
@@ -87,6 +112,7 @@
 			"name": "Analytic"
 		}
 	],
+	"tile_layout": [],
 	"category": [
 		{
 			"id": "e3ff1f33-a3f2-4b27-a08c-9c484f95811d",
@@ -104,6 +130,7 @@
 			"name": "Fad Main CRM"
 		}
 	],
+	"tilegroup_layout": [],
 	"launchpad": [
 		{
 			"id": "e6f41ec5-1889-431b-9a51-ff20dfdeda44",
@@ -111,6 +138,7 @@
 			"description": null
 		}
 	],
+	"launchpad_layout": [],
 	"certificates": [],
 	"role": [],
 	"systems": [],
@@ -164,5 +192,6 @@
 	"events": [],
 	"code_snippets": [],
 	"wf_determination": [],
-	"wf_taskaction": []
+	"wf_taskaction": [],
+	"theme_ui5": []
 }

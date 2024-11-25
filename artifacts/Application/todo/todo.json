@@ -1,0 +1,449 @@
+{
+	"id": "0ca65658-b184-4fc1-8da6-a459604bc5bc",
+	"createdAt": "2024-11-25T04:26:07.000Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "5a0ab31d-07be-480f-a6de-c77e900283b0",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "02490ffb-37db-4b08-959d-049c3636598c",
+					"fieldName": "Container",
+					"fieldParent": "5a0ab31d-07be-480f-a6de-c77e900283b0",
+					"fieldType": "nep.bootstrap.Container",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "f022c348-a7ef-4b08-f53c-c1562b6c112e",
+							"fieldName": "Button",
+							"fieldParent": "02490ffb-37db-4b08-959d-049c3636598c",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Add",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "fa4579be-6e5e-4204-ea5c-bcfe91eb9ec6",
+					"fieldName": "TodoApp",
+					"fieldParent": "5a0ab31d-07be-480f-a6de-c77e900283b0",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "todo>todo",
+					"bindingType": "u",
+					"bindingSource": "API",
+					"bindingParentID": "5a237a58-6847-41c8-aa3c-b2f6c8ed0f78",
+					"bindingPathID": "76b01f90-10c2-41a3-9b15-7a531c43a51c",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "7bc4b121-e1ef-4e4c-9dea-5ef1fc696038",
+							"fieldName": "Table",
+							"fieldParent": "fa4579be-6e5e-4204-ea5c-bcfe91eb9ec6",
+							"fieldType": "sap.m.Table",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "todo>todo",
+							"bindingType": "h",
+							"bindingSource": "API",
+							"bindingParentID": "5a237a58-6847-41c8-aa3c-b2f6c8ed0f78",
+							"bindingPathID": "76b01f90-10c2-41a3-9b15-7a531c43a51c",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "fcd2de72-6030-4b59-e3ab-b8a55f7feb7f",
+									"fieldName": "colTabletitle",
+									"fieldParent": "7bc4b121-e1ef-4e4c-9dea-5ef1fc696038",
+									"fieldType": "sap.m.Column",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "a30767d7-7761-4049-816c-aa6d5466d171",
+											"fieldName": "colHTabletitle",
+											"fieldParent": "fcd2de72-6030-4b59-e3ab-b8a55f7feb7f",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "title",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "71a396c1-d435-4de5-8a18-9df4fa4292a0",
+									"fieldName": "colTabledescription",
+									"fieldParent": "7bc4b121-e1ef-4e4c-9dea-5ef1fc696038",
+									"fieldType": "sap.m.Column",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "2b655a9d-3bb3-472b-873b-e99cdd9a0d54",
+											"fieldName": "colHTabledescription",
+											"fieldParent": "71a396c1-d435-4de5-8a18-9df4fa4292a0",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "description",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "c76ff6ee-c443-4bb8-ccf9-5cb80fa88740",
+									"fieldName": "colTableupdatedAt",
+									"fieldParent": "7bc4b121-e1ef-4e4c-9dea-5ef1fc696038",
+									"fieldType": "sap.m.Column",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "042dcea4-2737-4f21-bee4-8e6208ad8bcc",
+											"fieldName": "colHTableupdatedAt",
+											"fieldParent": "c76ff6ee-c443-4bb8-ccf9-5cb80fa88740",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Date when record was updated",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "e4036e8e-8ce1-4017-d091-2a6196a86f21",
+									"fieldName": "colTableupdatedBy",
+									"fieldParent": "7bc4b121-e1ef-4e4c-9dea-5ef1fc696038",
+									"fieldType": "sap.m.Column",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "23cbec70-46ec-4438-99e4-1fe4b8841dfe",
+											"fieldName": "colHTableupdatedBy",
+											"fieldParent": "e4036e8e-8ce1-4017-d091-2a6196a86f21",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Updated by",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "4582e507-ade3-49ea-d266-f5da97ab3504",
+									"fieldName": "colItemTable",
+									"fieldParent": "7bc4b121-e1ef-4e4c-9dea-5ef1fc696038",
+									"fieldType": "sap.m.ColumnListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "e972d27a-d73d-40e5-b391-4f05d007c0ab",
+											"fieldName": "txtTabletitle",
+											"fieldParent": "4582e507-ade3-49ea-d266-f5da97ab3504",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{title}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "05e7e114-f955-4873-e60d-b567fcff9809",
+											"fieldName": "txtTabledescription",
+											"fieldParent": "4582e507-ade3-49ea-d266-f5da97ab3504",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{description}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "a0342b44-4b7c-419f-bf3f-dce130a975f0",
+											"fieldName": "txtTableupdatedAt",
+											"fieldParent": "4582e507-ade3-49ea-d266-f5da97ab3504",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{updatedAt}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Formatter",
+													"value": "date:BrowserSetting",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "d54cb408-2275-4215-83e1-c8f02b6a6d3b",
+											"fieldName": "txtTableupdatedBy",
+											"fieldParent": "4582e507-ade3-49ea-d266-f5da97ab3504",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{updatedBy}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "2b6ecb1a-c146-4a21-957d-9f883a2c9982",
+					"fieldName": "APIs",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "f0ac41c3-2b70-483a-a171-a005c39b1fa8",
+							"fieldName": "getTodo",
+							"fieldParent": "2b6ecb1a-c146-4a21-957d-9f883a2c9982",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "5a237a58-6847-41c8-aa3c-b2f6c8ed0f78",
+							"restOperation": "3de5b811-214b-44d9-9c78-e721a91b770f",
+							"request": [],
+							"response": [
+								{
+									"status": 200,
+									"dataId": "76b01f90-10c2-41a3-9b15-7a531c43a51c",
+									"modelFieldNo": "7bc4b121-e1ef-4e4c-9dea-5ef1fc696038"
+								}
+							],
+							"attributes": [
+								{
+									"attribute": "setInitLoad",
+									"grouping": "Model",
+									"value": "online",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "0b7cb302-21b5-47d9-c0b6-0f11359e64b8",
+					"fieldName": "Models",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "d7119e77-1e13-413e-de72-224ef3af0011",
+							"fieldName": "DataTodo",
+							"fieldParent": "0b7cb302-21b5-47d9-c0b6-0f11359e64b8",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.11.25.1248",
+	"application": "todo",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "97409bb8-beff-49c7-8dc8-88a3bf986574",
+	"apis": [
+		{
+			"id": "5a237a58-6847-41c8-aa3c-b2f6c8ed0f78",
+			"name": "todo",
+			"ver": "24.11.25.1233"
+		}
+	]
+}
